@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">OhEmEm</string>
+    <string name="action_settings">Settings</string>
+
+    <!---Category Names -->
+    <string name="cat_counterstrain">Counterstrain</string>
+    <string name="cat_hvla">HVLA</string>
+    <string name="cat_muscle_energy">Muscle Energy</string>
+    <string name="cat_blt">BLT</string>
+    <string name="cat_fpr">FPR</string>
+    <string name="cat_soft_tissue">Soft Tissue</string>
+    <string name="cat_cranial_sacral">Cranial Sacral</string>
+    <string name="cat_articulatory">Articulatory</string>
+
+    <!-- Database Strings -->
+    <string name="database_name">Techniques</string>
+    <string name="table_name">technique_table</string>
+    <string name="UID">_id</string>
+    <string name="clm_name">Name</string>
+    <string name="clm_description">Description</string>
+    <string name="clm_category">Category</string>
+    <string name="clm_vid">Video_URL</string>
+    <string name="clm_pic">Picture_URL</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
