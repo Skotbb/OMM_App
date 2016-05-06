@@ -1,75 +1,12 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/fragment_category"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="layout.CategoryFragment">
 
-    <!-- TODO: Update blank fragment layout -->
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/cat_counterstrain"
-        android:id="@+id/btn_counterstrain"
-        android:layout_gravity="center_horizontal"
-        style="@style/btnStyle" />
+    <android.support.v7.widget.RecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/cat_hvla"
-        android:id="@+id/btn_hvla"
-        android:layout_gravity="center_horizontal"
-        style="@style/btnStyle" />
+        android:id="@+id/category_recycler_view"
 
-    <Button
-        style="@style/btnStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/cat_muscle_energy"
-        android:id="@+id/btn_muscle_energy"
-        android:layout_gravity="center_horizontal" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    >
 
-    <Button
-        style="@style/btnStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/cat_blt"
-        android:id="@+id/btn_blt"
-        android:layout_gravity="center_horizontal" />
-
-    <Button
-        style="@style/btnStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/cat_fpr"
-        android:id="@+id/btn_fpr"
-        android:layout_gravity="center_horizontal" />
-
-    <Button
-        style="@style/btnStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/cat_soft_tissue"
-        android:id="@+id/btn_soft_tissue"
-        android:layout_gravity="center_horizontal" />
-
-    <Button
-        style="@style/btnStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/cat_cranial_sacral"
-        android:id="@+id/btn_cranial_sac"
-        android:layout_gravity="center_horizontal" />
-
-    <Button
-        style="@style/btnStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/cat_articulatory"
-        android:id="@+id/btn_articulatory"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="5dp" />
-</LinearLayout>
+    </android.support.v7.widget.RecyclerView>

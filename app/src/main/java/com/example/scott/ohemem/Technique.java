@@ -1,9 +1,12 @@
 package com.example.scott.ohemem;
 
+import java.util.UUID;
+
 /**
  * Created by Scott on 2/26/2016.
  */
 public class Technique implements Comparable<Technique>{
+    private UUID techId;
     private String name,
                 description,
                 category,
@@ -19,11 +22,16 @@ public class Technique implements Comparable<Technique>{
      * @param picUrl    String URL of technique picture
      */
     public Technique(String name, String description, String category, String vidUrl, String picUrl) {
+        this.techId = UUID.randomUUID();
         this.name = name;
         this.description = description;
         this.category = category;
         this.vidUrl = vidUrl;
         this.picUrl = picUrl;
+    }
+
+    public UUID getTechId() {
+        return techId;
     }
 
     /**
@@ -38,10 +46,6 @@ public class Technique implements Comparable<Technique>{
      *
      * @param name  String name of Technique
      */
-    public void setName(String name) {
-        this.name = name;
-    }
-
     /**
      *
      * @return  Description of Technique
@@ -50,32 +54,16 @@ public class Technique implements Comparable<Technique>{
         return description;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
     public String getCategory() {
         return category;
-    }
-
-    public void setCategory(String category) {
-        this.category = category;
     }
 
     public String getVidUrl() {
         return vidUrl;
     }
 
-    public void setVidUrl(String vidUrl) {
-        this.vidUrl = vidUrl;
-    }
-
     public String getPicUrl() {
         return picUrl;
-    }
-
-    public void setPicUrl(String picUrl) {
-        this.picUrl = picUrl;
     }
 
     /**

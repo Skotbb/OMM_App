@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">OhEmEm</string>
     <string name="action_settings">Settings</string>
+    <string name="label_category_title">Select a Category to View</string>
 
-    <!---Category Names -->
+        <!---Category Names -->
     <string name="cat_counterstrain">Counterstrain</string>
     <string name="cat_hvla">HVLA</string>
     <string name="cat_muscle_energy">Muscle Energy</string>
@@ -12,7 +13,7 @@
     <string name="cat_cranial_sacral">Cranial Sacral</string>
     <string name="cat_articulatory">Articulatory</string>
 
-    <!-- Database Strings -->
+        <!-- Database Strings -->
     <string name="database_name">Techniques</string>
     <string name="table_name">technique_table</string>
     <string name="UID">_id</string>
@@ -22,6 +23,15 @@
     <string name="clm_vid">Video_URL</string>
     <string name="clm_pic">Picture_URL</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+        <!-- Array List for Categories -->
+    <string-array name="sa_categories">
+        <item>Counterstrain</item>
+        <item>HVLA</item>
+        <item>Muscle Energy</item>
+        <item>BLT</item>
+        <item>FPR</item>
+        <item>Soft Tissue</item>
+        <item>Cranial Sacral</item>
+        <item>Articulatory</item>
+    </string-array>
 </resources>
